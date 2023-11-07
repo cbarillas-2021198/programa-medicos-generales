@@ -1,0 +1,2263 @@
+/**/
+
+/* ---------------------------------------------
+Tabla de Contenido
+------------------------------------------------
+
+02. Estilos Generales
+04. Navbar
+05. Banner
+06. Sobre Nosotros
+07. Requisitos Gnenerales
+08. Maestrias Inicio
+09. Todas las maestrias
+10. Maestrias individual
+11. Imagenes Maestrias Individual
+12. Footer
+
+---------------------------------------------
+Estilos Generales
+---------------------------------------------
+*/
+html, body {
+  scroll-behavior: smooth;
+}
+
+.text-notFound {
+  color: #376a87;
+}
+
+body {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-weight: 400;
+  background-color: #fff;
+  font-size: 16px;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  font-size: 14px;
+  line-height: 25px;
+  color: #2a2a2a;
+  font-weight: 300;
+}
+
+.text-center {
+  text-align: center !important;
+  color: white !important;
+}
+
+.text-center .p {
+  text-align: center !important;
+  color: white !important;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.azul-igss{
+  color: #376A87 !important;
+}
+
+.verde-igss{
+  color: #729133 !important;
+  }
+
+  .titulos{
+    font-weight: bold !important;
+    color: #266B92 !important;
+    font-size: 35px !important;
+    margin-bottom: 0.5rem;
+      font-family: inherit !important;
+      font-weight: 500;
+      line-height: 1.2;
+      font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" !important;
+  }
+  
+  
+  
+/*
+---------------------------------------------
+                NAVBAR
+---------------------------------------------
+*/
+
+.nav-link{
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.nav-link:hover{
+  color: #76855a;
+}
+
+.text-logo {
+  margin-left: 10px; 
+  color: #376a87 !important;
+  font-size: 20px !important;
+}
+
+.custom-navbar-toggler {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+
+
+  .container{
+    margin: 0px;
+    padding: 5px;
+  }
+
+  .text-logo{
+    margin: 10px;
+    color: #376a87;
+    font-size: 15px !important;
+    justify-content: center !important;
+  }
+  
+
+  .logo-img{
+    max-width: 50px !important;
+  }
+  
+.text-logo{
+  
+}
+
+
+.navbar-toggler
+{
+  padding: 5px;
+  margin: 0;
+
+}
+
+.logo-text
+.navbar-brand
+.navbar-toggler  {
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar-nav {
+  align-items: start !important;
+  justify-content: start;
+  text-align: start;
+}
+}
+
+
+@media(max-width: 300px){
+ 
+.custom-navbar-toggler {
+  border: none; 
+  background: transparent;
+  font-size: 1rem !important; 
+  padding: 0px; 
+}
+
+.text-logo{
+  margin: 5px;
+  color: #376a87;
+  font-size: 13px !important;
+  justify-content: center !important;
+}
+
+}
+
+
+/* Estilos personalizados para el botón */
+
+
+@media(max-width: 990px){
+  .navbar-nav {
+    align-items: start !important;
+   
+  }
+}
+
+
+
+.text-about{
+  font-size: 20px;
+  text-align: justify;
+  
+}
+
+
+
+/*
+
+---------------------------------------------
+              END NAVBAR
+---------------------------------------------
+*/
+
+/*
+---------------------------------------------
+                BANNER
+---------------------------------------------
+*/
+
+.banner {
+  background: linear-gradient(rgba(10, 10, 10, 0.322), rgba(0, 0, 0, 0.658)), url(/images/Maestrias.JPG) center center no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 270px 0px 210px 0px;
+  position: relative;
+  background-position: center center;
+
+}
+.btn-sobreNosotros a {
+  display: inline-block;
+  font-size: 14px;
+  padding: 12px 18px;
+  background-color: #fff;
+  color: #2a2a2a;
+  text-align: center;
+  font-weight: 500;
+  text-transform: capitalize;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+
+.btn-maestriasi  {
+  border: none;
+  font-size: 14px;
+  padding: 12px 18px;
+  background-color: #376A87;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 500;
+
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+
+
+.banner h6 {
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 300;
+  z-index: 98;
+}
+
+.banner h2 {
+  font-size: 50px;
+  font-weight: 800;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  z-index: 98;
+}
+
+
+@media (max-width: 300px){
+  .main-content h2{
+    font-size: 30px !important;
+  }
+}
+
+/*
+---------------------------------------------
+             END BANNER
+---------------------------------------------
+*/
+
+
+/*
+---------------------------------------------
+             Inscripcion
+---------------------------------------------
+*/
+
+@media(max-width: 728px){
+
+  .titulo-inscripcion{
+      font-size: 30px !important
+  }
+
+  .texto-inscripcion{
+    font-size: 16px !important;
+    text-align: justify;
+  }
+  
+}
+
+
+
+/*
+---------------------------------------------
+             Inscripcion
+---------------------------------------------
+*/
+
+
+/*
+---------------------------------------------
+------------- Sobre Nosotros ----------------
+---------------------------------------------
+*/
+
+.fondo{
+  background-image: url(public/images/fondo1.jpg) ;
+}
+
+.reconocimiento-imagen{
+  max-width: 80px !important;
+}
+
+#sobre-nosotros{
+  padding-bottom: 50px;
+  padding-top: 20px;
+ }
+
+.contenido-sobreNosotros{
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+
+
+.text-sobreNosotros {
+  text-align: justify;
+  font-size: 14px;
+}
+
+
+@media(max-width: 768px){
+  .sobre-nosotros{
+    margin: 0;
+    padding: 0;
+  }
+  .contenido-sobreNosotros{
+    margin: 20px;
+  }
+  .text-about{
+    font-size: 15px;
+  }
+}
+
+
+
+
+/*
+---------------------------------------------
+----------- End  Sobre Nosotros -------------
+---------------------------------------------
+*/
+
+
+
+
+
+
+
+
+/*
+---------------------------------------------
+----------- REQUISITOS GENERALES ------------
+---------------------------------------------
+*/
+
+.subtitulo-requisitos{
+  margin-top: 40px;
+}
+
+.titulo-requisitos{
+  color: #000 !important;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.item-requisitos{
+  background-color: #ecececfa !important;
+}
+
+
+/*
+---------------------------------------------
+                 MODAL
+---------------------------------------------
+*/
+
+.Modal {
+  width: 500px;
+  border-radius: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  z-index: 99;
+}
+
+.modal-body {
+  display: flex;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.modal-header {
+  width: 100%;
+  background-color: #ffffff;
+  color: #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.modal-content {
+	max-height: 90vh;
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	border-radius: 16px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 15px 30px 0 rgba(#000, 0.25);
+	@media(max-width: 600px) {
+		width: 100%;
+	}
+}
+
+.btn-requisitos{
+  background-color: #266b92 !important;
+  color: white;
+  margin-bottom: 20PX;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.btn-requisitos:hover{
+  transform: scale(1.05);
+  color: white;
+}
+
+.close {
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.column {
+  flex: 50%;
+  background-color: white;
+  width: 40px !important;
+}
+
+.column h1 {
+ font-size: 22px;
+ text-align: center;
+ justify-content: center;
+}
+
+.column#main {
+  padding: 40px;
+  margin-top: 0px;
+  width: 300px !important;
+}
+
+#main .btn-primary {
+  width: 100%;
+}
+
+.lista-requisitos li{
+  margin-bottom: 5px !important;
+}
+
+/*
+---------------------------------------------
+              END MODAL
+---------------------------------------------
+*/
+
+
+@media (max-width: 768px) {
+
+  .Modal {
+    width: 100%;
+    max-width: 500px;
+
+  }
+  .texto-interior-moviles{
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+  }
+}
+
+@media (max-width: 1132px){
+  .ver-requisitos{
+    margin-top: 90px !important ;
+  }
+}
+
+
+/*
+---------------------------------------------
+---------- END REQUISITOS GENERALES ---------
+---------------------------------------------
+*/
+
+
+
+
+
+
+/*
+---------------------------------------------
+---------- MAESTRIAS INICIO -----------------
+---------------------------------------------
+*/
+
+
+
+/** Courses section **/
+.Courses {
+  padding-top: 0px;
+  background: #ececec;
+ 
+}
+.box_bg {
+  background: #ffffff;
+  padding: 10px 30px 30px 0px;
+ display: inline-block;
+ width: 100%;
+}
+
+.titulo-maestrias-ma{
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+}
+
+.box_text {
+  
+  width: 100%;
+  padding: 0 !important;
+  margin-top: 20px !important;
+}
+
+.box_text p {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  text-align: right;
+  color: #ffffff;
+  text-align: justify;
+  margin-top: 7px
+}
+.box_text a {
+  text-decoration: none;
+ font-size: 14px !important;
+border: #f5f5f5 solid 1px;
+background-color: white;
+color: #000000;
+padding: 9px 0px;
+max-width: 171px;
+width: 100%;
+display: inline-block;
+text-align: center;
+border-radius: 30px;
+float: right;
+margin-top: 20px;
+}
+
+.box_text a:hover {
+  background-color: #478eb8;
+  border: #478eb8 solid 1px;
+  color: #fff;
+}
+
+.caja-numeros{
+  margin-top: 25px;
+}
+
+@media (max-width: 728px){
+  .contenido-maestrias{
+      margin: 20px !important;
+  }
+}
+
+
+
+
+
+/*
+---------------------------------------------
+---------- END MAESTRIAS INICIO -------------
+---------------------------------------------
+*/
+
+
+
+
+
+
+
+
+
+/*
+---------------------------------------------
+            TODAS LAS MAESTRIAS
+---------------------------------------------
+*/
+
+.page-heading-maestrias {
+  position: relative;
+  background-image: url(/images/galery-4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 110px 0px;
+  text-align: center;
+  background-position: center center;
+}
+
+.maestrias-item {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.maestrias-item  img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.maestrias-item .contenido-abajo {
+  background-color: #f3f2f2;
+  padding: 30px;   
+}
+
+.maestrias-item .contenido-abajo h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #2a2a2a;
+  margin-bottom: 25px;
+}
+
+.lupa-buscar{
+  color: #266b92;
+  font-size: 23px;
+  margin-left: 10px;
+}
+
+.maestrias-item .contenido-abajo ul li {
+  font-size: 14px;
+  color: #2a2a2a;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.maestrias-item .contenido-abajo ul li:last-child {
+  margin-bottom: 0px;
+}
+
+.maestrias-item .contenido-abajo ul li i {
+  width: 20px;
+  text-align: center;
+  font-size: 18px;
+  color: #000000;
+  display: inline-block;
+}
+
+.lista-maestria {
+  list-style: none;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+.lista-maestrias {
+
+
+}
+
+
+.texto-maestria {
+  font-weight: 700;
+  font-size: 15px;
+  color: #656c74;
+}
+
+.container-buscador {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.buscador-input {
+  width: 100%; 
+  max-width: 300px; 
+}
+
+.main-dark-button.boton-buscador {
+  margin-right: 20px; 
+  /* Añade margen superior para separar el botón */
+}
+.todas-maestrias {
+  margin-bottom: 100px;
+}
+
+.container-maestrias {
+  margin: 40px;
+}
+
+.page-heading-maestrias::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.page-heading-maestrias h2 {
+  font-size: 50px;
+  color: #fff;
+  font-weight: 800;
+  margin-bottom: 15px;
+  position: relative;
+  z-index: 2;
+}
+
+.page-heading-maestrias span {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 300;
+  padding: 0px 250px;
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+ 
+}
+
+.todas-maestrias .container-buscador {
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 20px;
+  display: flex;
+}
+
+.todas-maestrias .container-buscador h4 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 8px;
+} 
+
+
+
+.todas-maestrias .container-buscador option {
+  background-color: #343a3e;
+}
+
+.todas-maestrias .container-buscador .main-dark-button:hover {
+  background-color: #000000;
+}
+
+.buscador-input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input {
+  flex: 1;
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #d6d5d5;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  padding: 2px !important;
+}
+
+.categorias select {
+  border: none; /* Quita el borde del select */
+  border-bottom: 1px solid #376a87; /* Añade una línea azul en la parte inferior */
+  background: transparent; /* Fondo transparente */
+  padding: 5px; /* Añade espacio alrededor del texto */
+  -webkit-appearance: rgba(5,5,5,5); /* Quita el estilo nativo de ciertos navegadores */
+
+}
+
+
+
+
+/* Estilo para el icono */
+.categorias i.fa {
+  color: #376A87; /* Color azul para el icono */
+  margin-right: 5px; /* Añade margen a la derecha del icono */
+}
+
+
+
+
+.categorias select option:checked,
+.categorias select option {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+.opciones {
+  color: #000;
+  background-color: white;
+}
+
+.contenido-abajo {
+  background-color: #376a87;
+}
+
+
+.btn-masinfo {
+  background-color: #376a87;
+  margin-top: 30px;
+}
+
+.lista-categorias{
+  margin-left: 5px;
+  text-align: start;
+  display: flex ;
+}
+
+@media (max-width: 769px) {
+
+.lupa-buscar{
+  margin-right: 70px;
+  margin-left: 0;
+  margin-top: 5px;
+}
+
+  .maestrias-item{
+    margin-bottom: 10px !important;
+  }
+
+  .input {
+   padding: 0;
+   text-align: start;
+   width: 100%;
+   margin-top: 15px !important;
+      
+  }
+
+  
+
+  
+
+  .categorias select {
+   display: flex;
+ 
+    width: 100%;
+   
+  }
+  .buscador-input {
+    margin: 0;
+  }
+  .lista-categorias {
+    margin: auto;
+    text-align: start;
+    padding-right: px;
+    padding-left: 10px;
+    
+  }
+  .boton-buscador {
+    margin-bottom: 5px;
+    margin-left: 5px;
+  }
+
+   .categorias-select {
+    width: 100%; 
+    
+  } 
+  
+  .container-buscador {
+    justify-content: start;
+    align-items: self-start;
+    text-align: start;
+     margin: 0 !important;
+     padding: 0 !important;
+  }
+
+  .buscador-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .input {
+    width: 70%; 
+    margin-right: 10px;
+  }
+
+  .boton-buscador {
+    width: 25%; 
+    font-size: 15px;
+  }
+
+  .categorias {
+    width: 80% !important;
+    margin-bottom: auto !important;
+    margin-top: 0 !important;
+  }
+
+  .categorias-select {
+    width: 100%;
+    padding: 30px;
+  }
+
+  .todas-maestrias{
+    margin: 20px;
+  }
+
+}
+
+@media (max-width: 426px){
+  .categorias {
+    width: 50% !important;
+    align-items: center !important;
+    text-align: center !important;
+    justify-content: center !important;
+    margin-left: 5px;
+    
+  }
+}
+
+@media (max-width: 991px){
+  .container-buscador {
+   
+    flex-direction: column;
+    align-items: start;
+    
+    margin: 0 !important;
+  }
+  
+}
+
+@media (max-width: 300px){
+  .contenido-abajo h4{
+    font-size: 20px !important ;
+  }
+
+
+
+}
+
+/*
+---------------------------------------------
+         END TODAS LAS MAESTRIAS
+---------------------------------------------
+*/
+
+
+
+/*
+---------------------------------------------
+          Maestrias Individual
+---------------------------------------------
+*/
+
+.titulos-maestrias {
+  font-size: 50px;
+  position: relative;
+  color: #fff;
+  font-weight: 800;
+  margin-bottom: 15px;
+  z-index: 5;
+}
+
+.maestria-individual-content .heading-tabs {
+  padding: 0px 10px;
+  border-bottom: 1px dotted #d7dadc;
+}
+
+.maestria-individual-content .heading-tabs .main-dark-button {
+  text-align: right;
+}
+
+.maestria-individual-content #tabs ul {
+  margin-top: 10px;
+  padding: 0;
+}
+.maestria-individual-content #tabs ul li {
+  display: inline-block;
+}
+.maestria-individual-content #tabs ul li:last-child {
+  margin-right: 0px;
+}
+.maestria-individual-content #tabs ul li a {
+  text-transform: capitalize;
+  width: 100%;
+  display: inline-block;
+  font-size: 14px;
+  color: #f6e9e9;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+.maestria-individual-content #tabs ul .ui-tabs-active span {
+  background: #faf5b2;
+  border: #faf5b2;
+  line-height: 90px;
+  border-bottom: none;
+}
+.maestria-individual-content #tabs ul .ui-tabs-active a {
+  color: #656c74;
+  position: relative;
+}
+.maestria-individual-content #tabs ul .ui-tabs-active a:after {
+  width: 100%;
+  height: 3px;
+  background-color: #7c838b;
+  content: "";
+  left: 0;
+  top: -32px;
+  position: absolute;
+}
+.maestria-individual-content #tabs ul .ui-tabs-active span {
+  color: #1e1e1e;
+}
+.maestria-individual-content .tabs-content {
+  margin-top: 80px;
+  text-align: left;
+  display: inline-block;
+  transition: all 0.3s;
+}
+l .maestria-individual-content .tabs-content h4 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #2a2a2a;
+  margin-bottom: 25px;
+}
+.maestria-individual-content .tabs-content ul.list {
+  border-top: 1px dotted #d7dadc;
+  border-bottom: 1px dotted #d7dadc;
+  padding: 15px 0px !important;
+  margin-top: 30px !important;
+}
+.maestria-individual-content .tabs-content ul.list li {
+  width: 100%;
+  font-size: 17px;
+  color: #7c838b;
+}
+
+.maestria-individual-content .tabs-content #map h5 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #2a2a2a;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.maestria-individual-content .tabs-content #map .text-button {
+  margin-top: 15px;
+}
+
+.text-docencia {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.right-content h4 {
+  padding-bottom: 10px;
+
+}
+.maestria-individual-content {
+  margin-bottom: 70px;
+}
+
+.center-container {
+  margin: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.right-content p {
+  text-align: justify;
+  margin-right: 40px !important;
+  font-size: 17px;
+  
+}
+
+.contact-live,
+.contact-live p {
+  padding-top: 20px;
+}
+.contact {
+  background-color: #f3f0f0;
+  margin-top: 110px;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  overflow: hidden;
+}
+
+.boton-regresar {
+  margin-bottom: 30px;
+  color: #000000;
+}
+
+@media (max-width: 728px) {
+  .contact {
+    background-color: white;
+    margin: 10px;
+  }
+
+  .titulos-largos {
+    font-size: 37px;
+    position: relative; /* Agregar posición relativa al texto */
+    color: #fff;
+    font-weight: 800;
+    margin-bottom: 15px;
+    z-index: 5;
+  }
+
+  .boton-regresar {
+    margin-left: 10px;
+  }
+
+  .contact {
+    background-color: white;
+    margin: 10px;
+  }
+
+  .titulos-maestrias{
+    font-size: 35px !important;
+}
+}
+
+@media (max-width: 914px) {
+  .right-content {
+    margin: 15px;
+  }
+
+  .contact-live {
+    text-align: justify;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    margin: 20px;
+  }
+
+  .right-content h4 {
+    padding-bottom: 20px;
+    margin: 10px;
+  }
+
+  .contact {
+   margin: 0;
+  }
+}
+
+
+@media (max-width: 450px) {
+  .maestria-individual-content #tabs ul li {
+    text-align: center;
+    margin-right: 0px;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+  .maestria-individual-content #tabs ul .ui-tabs-active a:after {
+    display: none;
+  }
+
+  .maestria-individual-content .tabs-content ul.list {
+    text-align: center;
+  }
+
+  .maestria-individual-content .tabs-content ul.list li {
+    text-align: center;
+    width: 100%;
+  }
+
+  .pre-header {
+    display: none;
+  }
+}
+
+
+@media(max-width: 280px){
+  .titulos-maestrias{
+    font-size: 30px !important;
+  }
+}
+
+.maestria-item-custom {
+  width: 325px; 
+ 
+}
+
+.maestrias-item .align-bottom{
+  justify-content: end;
+  align-items: flex-end;
+}
+
+.align-bottom {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between; /* Esto distribuirá el espacio verticalmente */
+  height: 100%; /* Asegúrate de que el contenedor ocupe toda la altura */
+}
+
+.maestria-item-custom-todas{
+  width: 320px;
+  height: 550px;
+}
+
+
+
+/*
+------------------------------------------------------------------------
+                  IMAGENES DE MAESTRIAS INDIVIDUALES
+------------------------------------------------------------------------
+*/
+
+
+
+.page-heading::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+.page-anestesiologia {
+  background-image: url(./images/anestesiologia.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 160px 0px;
+  position: relative;
+  text-align: center;
+  background-position: center center;
+  z-index: 4;
+}
+
+.page-cirugiaGeneral {
+  background-image: url(/public/images/cirujia.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 160px 0px;
+  position: relative;
+  text-align: center;
+  background-position: center center;
+  z-index: 4;
+}
+
+.page-ginecologiaObstetricia {
+  background-image: url(/public/images/ginecologia.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 160px 0px;
+  position: relative;
+  text-align: center;
+  background-position: center center;
+  z-index: 4;
+}
+
+.page-medicinaFisica {
+  background-image: url(/public/images/medicina-fisica.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 160px 0px;
+  position: relative;
+  text-align: center;
+  background-position: center center;
+  z-index: 4;
+}
+
+.page-medicinaInterna {
+  background-image: url(/public/images/ciencias-medicas.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 160px 0px;
+  position: relative;
+  text-align: center;
+  background-position: center center;
+  z-index: 4;
+}
+
+.page-medicinaEmergencia {
+  background-image: url(/public/images/medicina-general.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 160px 0px;
+  position: relative;
+  text-align: center;
+  background-position: center center;
+  z-index: 4;
+}
+
+.page-patologia {
+  background-image: url(/public/images/patologia.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 160px 0px;
+  position: relative;
+  text-align: center;
+  background-position: center center;
+  z-index: 4;
+}
+
+.page-pediatria {
+  background-image: url(/public/images/pediatria.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 160px 0px;
+  position: relative;
+  text-align: center;
+  background-position: center center;
+  z-index: 4;
+}
+
+.page-psiquiatria {
+  background-image: url(/public/images/psiquiatria.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 160px 0px;
+  position: relative;
+  text-align: center;
+  background-position: center center;
+  z-index: 4;
+}
+.page-radiologia {
+  background-image: url(/public/images/radiologia.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 160px 0px;
+  position: relative;
+  text-align: center;
+  background-position: center center;
+  z-index: 4;
+}
+
+.page-traumatologia {
+  background-image: url(/public/images/ortopedia.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 160px 0px;
+  position: relative;
+  text-align: center;
+  background-position: center center;
+  z-index: 4;
+}
+
+.page-cirugiaOral {
+  background-image: url(/public/images/cirugiaoral.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 160px 0px;
+  position: relative;
+  text-align: center;
+  background-position: center center;
+  z-index: 4;
+}
+
+.page-infectologiaAdultos {
+  background-image: url(/public/images/infectologiaAdultos.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 160px 0px;
+  position: relative;
+  text-align: center;
+  background-position: center center;
+  z-index: 4;
+}
+
+.page-intensivoAdulto {
+  background-image: url(/public/images/intensivoAdulto.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 160px 0px;
+  position: relative;
+  text-align: center;
+  background-position: center center;
+  z-index: 4;
+}
+
+.page-infectologiaPediatrico {
+  background-image: url(/public/images/infectologiaPediatrica.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 160px 0px;
+  position: relative;
+  text-align: center;
+  background-position: center center;
+  z-index: 4;
+}
+
+.page-neonatologia {
+  background-image: url(/images/neonatologia.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 160px 0px;
+  position: relative;
+  text-align: center;
+  background-position: center center;
+  z-index: 4;
+}
+
+.page-nefrologia {
+  background-image: url(/public/images/nefrologia.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 160px 0px;
+  position: relative;
+  text-align: center;
+  background-position: center center;
+  z-index: 4;
+}
+
+.page-Otorrinolaringología {
+  background-image: url(/public/images/Otorrinolaringologia.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 160px 0px;
+  position: relative;
+  text-align: center;
+  background-position: center center;
+  z-index: 4;
+}
+
+.page-reumatologia {
+  background-image: url(/public/images/reumatologia.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 160px 0px;
+  position: relative;
+  text-align: center;
+  background-position: center center;
+  z-index: 4;
+}
+
+.page-urologia {
+  background-image: url(/public/images/urologia.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 160px 0px;
+  position: relative;
+  text-align: center;
+  background-position: center center;
+  z-index: 4;
+}
+
+.page-infectologiaPediatrica {
+  background-image: url(/public/images/infectologiaPediatrica.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 160px 0px;
+  position: relative;
+  text-align: center;
+  background-position: center center;
+  z-index: 4;
+}
+
+.page-neurologia {
+  background-image: url(/public/images/neurologia.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 160px 0px;
+  position: relative;
+  text-align: center;
+  background-position: center center;
+  z-index: 4;
+}
+
+.page-oncologia {
+  background-image: url(/public/images/oncologia.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 160px 0px;
+  position: relative;
+  background-position: center center;
+  z-index: 4;
+}
+
+.page-neumologia {
+  background-image: url(/public/images/neumologia.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 160px 0px;
+  position: relative;
+  text-align: center;
+  background-position: center center;
+  z-index: 4;
+}
+
+.page-neurocirugia {
+  background-image: url(/public/images/neurocirugia.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 160px 0px;
+  position: relative;
+  text-align: center;
+  background-position: center center;
+  z-index: 4;
+}
+
+.page-ginecologia {
+  background-image: url(/public/images/ginecologia.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 160px 0px;
+  position: relative;
+  text-align: center;
+  background-position: center center;
+  z-index: 4;
+}
+
+.page-gastroenterologia {
+  background-image: url(/public/images/gastroenterologia.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 160px 0px;
+  position: relative;
+  text-align: center;
+  background-position: center center;
+  z-index: 4;
+}
+
+
+/*
+----------------------------------------------------------------------------
+                END  IMAGENES DE MAESTRIAS INDIVIDUALES
+----------------------------------------------------------------------------
+*/
+
+
+
+
+/*
+---------------------------------------------
+responsive
+---------------------------------------------
+*/
+
+
+@media (max-width: 992px) {
+  .amazing-venues .right-content {
+    margin-left: 0;
+    margin-top: 45px;
+  }
+
+  .maestrias-inicio .event-item {
+    margin-bottom: 30px;
+  }
+
+  .page-heading-rent-venue span,
+  .page-heading-maestrias span {
+    padding: 0px;
+  }
+
+  .maestria-individual-content .heading-tabs .main-dark-button {
+    display: none;
+  }
+
+  .todas-maestrias .container-buscador {
+    text-align: left;
+  }
+
+  .todas-maestrias.pagination ul li {
+    margin: 0px 2px !important;
+  }
+}
+
+
+/*
+---------------------------------------------
+                  FOOTER
+---------------------------------------------
+*/
+
+footer {
+  position: static;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
+
+/*
+---------------------------------------------
+               END FOOTER
+---------------------------------------------
+*/
+
+/*
+---------------------------------------------
+                  PREGUNTAS
+---------------------------------------------
+*/
+
+.preguntas-frecuentes {
+  background-image: url(/public/images/about.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 160px 0px;
+  position: relative;
+  text-align: center;
+  background-position: center;
+  z-index: 4;
+}
+
+.preguntas-content{
+  margin: 40px
+}
+
+.titulos-preguntas {
+  font-size: 50px;
+  position: relative;
+  color: #ffffff;
+  font-weight: 800;
+  margin-bottom: 15px;
+  z-index: 5;
+}
+
+.contacto-pregunta,
+.contacto-pregunta p {
+  padding-top: 20px;
+  color: white;
+  font-size: 20px;
+}
+.contacto-preguntas {
+  background-color: #376a87;
+  margin-top: 41px;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  overflow: hidden;
+}
+
+
+
+
+@media (max-width: 767px) {
+  .accordion-item {
+    margin-right: 0px;
+  }
+
+  .contacto-preguntas {
+    background-color: white;
+    margin: 15px;
+  }
+
+  .contacto-pregunta h5 {
+    color: black;
+  }
+  .contacto-pregunta p {
+    color: black;
+  }
+
+  .accordion-item {
+    width: 100%;
+    margin-right: 200px;
+  }
+}
+
+
+@media (max-width: 1078px) {
+  .accordion {
+    margin-right: 0;
+  }
+
+  .accordion-button {
+    width: 100%;
+    text-align: left;
+  }
+
+  .accordion-body {
+    padding-left: 15px;
+  }
+}
+
+/*
+---------------------------------------------
+              END PREGUNTAS
+---------------------------------------------
+
+
+
+*/
+
+@media (max-width: 767px) {
+  .col-sm-12 {
+    padding: 10px;
+  }
+}
+
+.lista-cirugia {
+  font-size: 16px;
+  margin: 14px;
+}
+
+.lista-fuera {
+  font-size: 17px;
+  text-align: justify;
+  line-height: 29px;
+  color: #2a2a2a;
+  font-weight: 300;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.tittle {
+  margin-top: 10px;
+  font-size: 22px ;
+}
+
+
+
+
+
+
+
+
+/*=========================
+   Start Contact Us CSS
+===========================*/
+.contact-us .inner{
+	box-shadow: 0px 0px 10px #00000024;
+	border-radius: 5px;
+	overflow:hidden;
+  margin: 40px;
+}
+.contact-us .contact-us-left{
+    width: 100%;
+    height: 100%;
+}
+.contact-us .contact-us-form{
+	padding:50px 40px;
+}
+.contact-us .contact-us-form h2 {
+	position: relative;
+	font-size: 32px;
+	color: #333;
+	font-weight: 600;
+	line-height: 27px;
+	text-transform: capitalize;
+	margin-bottom: 12px;
+	padding-bottom: 20px;
+	text-align: left;
+}
+.contact-us .contact-us-form h2:before{
+	position:absolute;
+	content:"";
+	left:0;
+	bottom:0;
+	height:2px;
+	width:50px;
+	background:#266b92;
+}
+.contact-us .contact-us-form p {
+	font-size: 14px;
+	color: #333;
+	font-weight: 400;
+	text-align: left;
+	margin-bottom:50px;
+}
+.contact-us .form {
+	margin-top: 30px;
+}
+.contact-us .form .form-group {
+	margin-bottom: 22px;
+}
+.contact-us .form .form-group input {
+	width: 100%;
+	height: 50px;
+	border: 1px solid #eee;
+	text-transform: capitalize;
+	padding: 0px 18px;
+	color: #555;
+	font-size: 14px;
+	font-weight: 400;
+	border-radius: 4px;
+}
+.contact-us .form .form-group textarea {
+	width: 100%;
+	height:100px;
+	border: 1px solid #eee;
+	text-transform: capitalize;
+	padding:18px;
+	color: #555;
+	font-size: 14px;
+	font-weight: 400;
+	border-radius: 4px;
+}
+.contact-us .form .form-group.login-btn {
+	margin: 0;
+}
+.contact-us .form button {
+	border: none;
+}
+.contact-us .form .btn {
+	display: inline-block;
+	margin-right: 10px;
+  background-color: #376a87;
+	color: #ffffff;
+	line-height: 20px;
+	width:100%;
+}
+
+.contact-us .contact-us-form .checkbox {
+	text-align: left;
+	margin: 0;
+	margin-top: 20px;
+	display:inline-block;
+	
+}
+.contact-us .contact-us-form .checkbox label {
+	font-size: 14px;
+	font-weight: 400;
+	color: #333;
+	position: relative;
+	padding-left: 20px;
+}
+.contact-us .contact-us-form .checkbox label:hover{
+	cursor:pointer;
+}
+.contact-us .contact-us-form .checkbox label input{
+	display:none;
+}
+.contact-us .contact-us-form .checkbox label::before {
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 5px;
+	width: 15px;
+	height: 15px;
+	border: 1px solid #376a87;
+	border-radius: 100%;
+}
+.contact-us .contact-us-form .checkbox label::after {
+	position: relative;
+	content: "";
+	width: 7px;
+	height: 7px;
+	left: -16px;
+	top: -15px;
+	opacity: 0;
+	visibility: hidden;
+	transform: scale(0);
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	display: block;
+	font-size: 9px;
+	background: #376a87;
+	border-radius: 100%;
+}
+.contact-us .contact-us-form .checkbox label.checked::after{
+	opacity:1;
+	visibility:visible;
+	transform:scale(1);
+}
+.contact-us .contact-info{
+	margin-bottom: 40px;
+}
+.contact-us .single-info {
+	background: #e1e8ec;
+	padding: 40px 60px;
+	height: 150px;
+	border-radius: 10px;
+	position:relative;
+	-webkit-transition: all .3s ease-out 0s;
+    -moz-transition: all .3s ease-out 0s;
+    -ms-transition: all .3s ease-out 0s;
+    -o-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+}
+.contact-us .single-info:before{
+	position: absolute;
+    z-index: -1;
+    content: '';
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 80%;
+    height: 90%;
+    opacity: 0;
+    filter: blur(10px);
+    -webkit-transition: all .3s ease-out 0s;
+    -moz-transition: all .3s ease-out 0s;
+    -ms-transition: all .3s ease-out 0s;
+    -o-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+}
+.contact-us .single-info:hover:before{
+	opacity: 0.8;
+}
+.contact-us .single-info:hover{
+	transform: translateY(-5px);
+}
+.contact-us .single-info i{
+	font-size:42px;
+	color:#376A87;
+	position:absolute;
+	left:40px;
+}
+.contact-us .single-info .content {
+	margin-left: 45px;
+}
+.contact-us .single-info .content h3{
+	color:#030000;
+	font-size:18px;
+	font-weight:600;
+	
+}
+.contact-us .single-info .content p{
+	color:#000000;
+	margin-top:5px;
+}
+
+/* Google Map */
+.contact-us #myMap {
+	height: 100%;
+	width: 100%;
+}
+
+.btn-contact{
+  color: #376a87;
+}
+
+@media(max-width: 1000px){
+  .contact-us-left{
+    margin-bottom: 20px;
+  }
+  .contact-us-form{
+    margin: 0 ;
+  }
+
+  #myMap{
+    margin-bottom: 20px;
+  }
+
+  .contact-abajo{
+    margin-bottom: 10px !important;
+  }
+}
+
+@media(max-width: 728px) {
+  .contact-abajo{
+    padding: 0px !important;
+    margin: 0px;
+  }
+  .contact-info{
+    margin-left: 30px;
+  }
+}
+
+/*=========================
+   End Contact Us CSS
+===========================*/
+
+
+
+
+
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-overlay:hover {
+  opacity: 1;
+}
+
+.image-text {
+  color: white;
+  padding: 10px;
+  font-size: 17px;
+  font-weight: bold;
+
+  }
+
+  .direccion-sede{
+   color: white !important;
+  }
+
+
+
+
+
+
+
+
+/*
+---------------------------------------------------
+------------ CATEGORIAS MAESTRIAS -----------------
+---------------------------------------------------
+*/
+
+
+.container-categorias {
+  text-align: center;
+  margin: 30px;
+}
+
+.image-container{
+
+  justify-content: center;
+}
+
+.image-categorias {
+  position: relative;
+  background-image: url(/images/categorias.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 130px 80px;
+  text-align: center;
+  background-position: center center;
+  margin: 20px;
+  transition: transform 0.2s; 
+}
+
+
+.image-categorias:hover {
+  cursor: pointer;
+  transform: scale(1.05); 
+}
+
+
+.image-categorias::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.image-categorias h3 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 800;
+  margin-bottom: 15px;
+  position: relative;
+  z-index: 95;
+  text-decoration: none !important;
+}
+
+.image-categorias button {
+  position: relative;
+  z-index: 4;
+  color: #000000; 
+  background-color: #ffffff; 
+  font-size: 20px;
+  border: 2px solid #ffffff; 
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+.titulo-categoria {
+  color: #376A87 !important;
+  font-weight: bold;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  background-image: linear-gradient(45deg, #376A87, #75B4F4); 
+  -webkit-background-clip: text; 
+  color: transparent; 
+  display: inline; 
+}
+
+/*
+---------------------------------------------------
+------------ END MAESTRIAS -----------------
+---------------------------------------------------
+*/
+
+
+
+
+
+
+.page-heading-maestrias {
+  position: relative;
+  background-image: url(/images/galery-4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 110px 0px;
+  text-align: center;
+  background-position: center center;
+}
+
+
+
+.page-heading-maestrias::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.page-heading-maestrias h2 {
+  font-size: 50px;
+  color: #fff;
+  font-weight: 800;
+  margin-bottom: 15px;
+  position: relative;
+  z-index: 2;
+}
+
+.page-heading-maestrias span {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 300;
+  padding: 0px 250px;
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+}
+
+
+
+.bg-appointment {
+  background: linear-gradient(rgba(0, 0, 0, 0.589), rgba(0, 0, 0, 0.644)), url(/images/galery-4.jpg) center center no-repeat;
+  background-size: cover;
+ 
+
+}
+
+
+.offer-text {
+  background: #000000b0;
+}
+
+.titulo-interior-requisitos{
+  font-size: 21px;
+  color: #000000;
+}
+
+.texto-interior-moviles{
+  color: #000 !important;
+  font-size: 17px;
+  margin: 10px;
+}
+
+
+.titulo-inscripcion{
+  font-size: 50px ;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+}
+
+.texto-inscripcion{
+  font-size: 19px;
+  text-align: justify;
+}
+
+
+.numeros-especialidades{
+  color: #f9fdff;
+  font-weight: bold;
+}
+
+.bg-maestrias {
+  background: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.733)), url(/images/galery-7.jpg) center center no-repeat;
+  background-size: cover;
+  padding-top: 70px;
+  padding-bottom: 70px;
+ 
+
+}
+
+
+.contenido-maestrias{
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+
+
+
+
+
+
+/* Sobre Nostros */
+
+
+
+
+
+.contenido-requisitos{
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+
+
+.img-fluid {
+  transition: transform 0.3s ease-in-out; /* Define la duración y el tipo de transición */
+}
+
+.img-fluid:hover {
+  transform: scale(1.2); /* Escala la imagen al 120% cuando se hace hover */
+}
+
+.close-modal{
+  background-color: #376a87 !important;
+}
+
+
+.maestrias-banner h6{
+ color: white !important;
+}
+
+@media(max-width: 728px){
+  .maestrias-banner h2{
+    font-size: 40px !important;
+  }
+
+  .maestrias-banner span{
+    
+    
+  }
+
+
+  }
+
+
+  .subtitulo-categoria{
+    text-decoration: none !important;
+  }
